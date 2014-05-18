@@ -1,11 +1,11 @@
 note
-	description: "Summary description for {OPTION}."
+	description: "Summary description for {P}."
 	author: ""
 	date: "$Date$"
 	revision: "$Revision$"
 
 class
-	OPTION
+	P
 
 end
 
