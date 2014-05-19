@@ -19,7 +19,7 @@ feature
 		Result := not isJust
 	end
 
-	map(f: FUNCTION[ANY, TUPLE[A], X]): MAYBE[X]
+	map(f: F1[A, ?B]): MAYBE[?B]
 	do
 		if isNothing
 		then
