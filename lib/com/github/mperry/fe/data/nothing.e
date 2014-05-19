@@ -12,8 +12,6 @@ inherit
 feature
 
 	just: A
-	check
-		false
 	do
 		Result := Void
 	end

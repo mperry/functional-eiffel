@@ -7,6 +7,6 @@ set PROJECT=functional-eiffel
 
 ec -config %PROJECT%.ecf -clean -batch
 cd EIFGENs\%PROJECT%\W_code
-finish_freezing >%BASE%freeze.txt 2>&1
+rem finish_freezing >%BASE%freeze.txt 2>&1
 rem %PROJECT%
 cd ..\..\..

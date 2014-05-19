@@ -9,7 +9,7 @@ deferred class
 
 feature
 
-	f(a: A, b: B): C
+	f(a: A; b: B): C
 	deferred end
-	
+
 end
