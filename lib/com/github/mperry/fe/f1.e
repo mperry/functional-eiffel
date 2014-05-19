@@ -12,7 +12,7 @@ feature
 	f(a: A): B
 	deferred end
 
-	andThen(f: F1[B, X]): F1[A, X]
+	andThen(f: F1[B, C]): F1[A, C]
 	do
 		Result := agent(a: A) do
 			f.f(Current.f(a))
